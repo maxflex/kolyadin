@@ -1,0 +1,17 @@
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  // background-image: url("/static/img/patterns/circle.png");
+  animation: animatedBackground 60s linear infinite;
+  background-repeat: repeat;
+  box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+  position: fixed;
+  z-index: 9;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}

@@ -1,0 +1,25 @@
+$font-extra-light: 'RaleWayExtraLight';
+$font-light: 'RaleWayLight';
+$font-regular: 'RaleWayRegular';
+$font-medium: 'RaleWayMedium';
+
+
+@font-face {
+  font-family: $font-extra-light;
+  src: url(./assets/fonts/Raleway/Raleway-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: $font-light;
+  src: url(./assets/fonts/Raleway/Raleway-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: $font-regular;
+  src: url(./assets/fonts/Raleway/Raleway-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: $font-medium;
+  src: url(./assets/fonts/Raleway/Raleway-Medium.ttf) format("truetype");
+}

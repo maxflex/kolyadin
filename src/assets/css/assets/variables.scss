@@ -1,0 +1,9 @@
+$colors: (
+  pink: #f3377a
+);
+
+@each $title, $hex in $colors {
+  .color-#{$title} {
+    color: $hex;
+  }
+}
